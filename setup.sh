@@ -1,6 +1,7 @@
 mkdir -p ~/.streamlit/
 sudo apt-get -y update
-
+sudo pip install --upgrade pip setuptools wheel
+sudo apt install python3-opencv
 # Build tools:
 sudo apt-get install -y build-essential cmake
 
