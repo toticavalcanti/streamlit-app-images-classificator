@@ -1,5 +1,5 @@
 mkdir -p ~/.streamlit/
-
+pip install streamlit
 echo "\
 [server]\n\
 headless = true\n\
