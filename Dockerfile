@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y \
+    mkdir -p home/streamlit \
     python3 \
     python3-pip \
     build-essential \
