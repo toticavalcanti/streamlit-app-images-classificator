@@ -50,8 +50,11 @@ if st.button("Predict"):
     image = Image.open(image_file)
     st.image(image , use_column_width=True)
     path = os.path.dirname(__file__)
-    img = image.save(f""+path+"./images/"+image_file.name)
-    img_to_predict = load_image(f""+path+"./images/"+image_file.name)
+    #img = image.save(f""+path+"./images/"+image_file.name)
+    img = image.save(f"./images/"+image_file.name)
+    #img_to_predict = load_image(f""+path+"./images/"+image_file.name)
+    img_to_predict = load_image(f"./images/"+image_file.name)
     predictions = np.argmax(model.predict(img_to_predict), axis=-1)
     string = "Image mostly same as : - " + class_name[predictions[0]]
     st.success(string)
+    os.remove(f"./images/"+image_file.name)
