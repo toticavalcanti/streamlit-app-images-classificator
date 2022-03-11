@@ -9,7 +9,6 @@ RUN apt-get update && \
     build-essential \
     libssl-dev \
     libcurl3-dev \
-    python-opencv \
     curl \
     git \
     sudo \
@@ -18,8 +17,8 @@ RUN apt-get update && \
     pip3 install --upgrade streamlit && \
     pip3 install --upgrade opencv-python && \
     mkdir -p /home/streamlit \
-    mkdir -p /home/streamlit/images
-
+    mkdir -p /home/streamlit/images \
+RUN pip install -r requirements.txt
 
 ENV PATH="/bin:/usr/bin/:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/home/streamlit/.local/bin"
 WORKDIR /home/streamlit
