@@ -18,7 +18,7 @@ RUN apt-get update && \
     pip3 install bash_kernel && \
     pip3 install --upgrade streamlit && \
     pip3 install --upgrade opencv-python && \
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
 
 ENV PATH="/bin:/usr/bin/:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/home/streamlit/.local/bin"
 WORKDIR /home/streamlit
