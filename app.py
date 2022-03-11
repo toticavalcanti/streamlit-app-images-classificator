@@ -1,5 +1,6 @@
 # import the Package
 import os
+import pathlib
 import cv2
 import numpy as np 
 from PIL import Image , ImageOps
@@ -49,7 +50,7 @@ if image_file  is not None:
 if st.button("Predict"):
     image = Image.open(image_file)
     st.image(image , use_column_width=True)
-    path = os.path.dirname(__file__)
+    path = pathlib.Path(image)
     print(path)
     img = image.save(f""+path+"./images/"+image_file.name)
     img_to_predict = load_image(f""+path+"./images/"+image_file.name)
