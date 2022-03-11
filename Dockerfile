@@ -14,6 +14,7 @@ RUN apt-get update && \
     git \
     sudo \
     libxml2-dev && \
+    pip3 install streamlit \
     pip3 install bash_kernel && \
     pip3 install --upgrade streamlit && \
     pip3 install --upgrade opencv-python && \
