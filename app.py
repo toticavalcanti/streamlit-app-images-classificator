@@ -39,20 +39,17 @@ def load_image(filename):
 
 # create a file uploader and take a image as an jpg or png
 image_file  = st.file_uploader("Upload the image" , type=["jpg" , "png"])
-if image_file  is not None:
-    file_details = {
-        "Filename":image_file.name,
-        "FileType":image_file.type,
-        "FileSize":image_file.size,
-    }
+# if image_file  is not None:
+#     file_details = {
+#         "Filename":image_file.name,
+#         "FileType":image_file.type,
+#         "FileSize":image_file.size,
+#     }
 
 if st.button("Predict"):
     image = Image.open(image_file)
     st.image(image , use_column_width=True)
-    path = os.path.dirname(__file__)
-    #img = image.save(f""+path+"./images/"+image_file.name)
     img = image.save(f"./images/"+image_file.name)
-    #img_to_predict = load_image(f""+path+"./images/"+image_file.name)
     img_to_predict = load_image(f"./images/"+image_file.name)
     predictions = np.argmax(model.predict(img_to_predict), axis=-1)
     string = "Image mostly same as : - " + class_name[predictions[0]]
