@@ -3,4 +3,4 @@ streamlit
 tensorflow-cpu
 click <= 8.0.4
 grpcio-tools >= 1.44.0
-protobuf = >=3.6.0, !=3.11
+protobuf = >=3.6.0
