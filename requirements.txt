@@ -1,5 +1,4 @@
-opencv-python-headless==4.5.3.56
-streamlit==1.2.0
+opencv-python-headless
+streamlit
 tensorflow-cpu
-click <= 8.0.4
-pip >= 22.1.2
+click
