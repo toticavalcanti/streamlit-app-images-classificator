@@ -3,4 +3,4 @@ streamlit
 tensorflow-cpu
 click <= 8.0.4
 pip >= 22.1.2
-
+protobuf >= 4.21.0
