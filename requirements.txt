@@ -1,4 +1,4 @@
-opencv-python
+opencv-python-headless
 streamlit
 tensorflow-cpu
 click <= 8.0.4
