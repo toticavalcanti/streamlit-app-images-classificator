@@ -2,3 +2,4 @@ opencv-python-headless
 streamlit
 tensorflow-cpu
 click <= 8.0.4
+grpcio-tools >= 1.44.0
