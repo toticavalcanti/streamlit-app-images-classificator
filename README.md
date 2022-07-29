@@ -16,4 +16,4 @@ and you can easily change the model hyperparameter to enhance the power of your 
 
 ![Screenshot (594)](https://user-images.githubusercontent.com/72247049/111105978-31075300-857a-11eb-9826-76bfadfcdcc7.png)
 
-if you want to create this web app, just follow my [tutorial](https://www.codigofluente.com.br/big-data/aprendizado-de-maquina-machine-learning/python-tensorflow-keras-redes-neurais/) and learn or do it now.
+if you want to create this web app, just follow my [tutorial](https://www.codigofluente.com.br/big-data/aprendizado-de-maquina-machine-learning/python-tensorflow-keras-redes-neurais/) and learn how do it.
