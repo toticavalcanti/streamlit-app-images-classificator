@@ -1,7 +1,7 @@
 # Image Classification with Cifar-10 Dataset (Streamlit)
 
 Hey there , 
-this image classifier model was created using CNN and the Cifar10 database.
+this image classifier was created using CNN and the Cifar10 database.
 
 This model was created based on the Convolutional Neural Networks tutorial from the [Código Fluente](https://www.codigofluente.com.br/) website
 
