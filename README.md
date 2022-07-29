@@ -3,7 +3,7 @@
 Hey there , 
 Image Classification using Cifar10 Dataset is so Popular image classification model and i just create this project or model in my way.
 
-[Click Here and Test My Image Classification App](https://www.google.com](https://toticavalcanti-streamlit-app-images-classificator-app-cbnrqn.streamlitapp.com/)
+[Test My Image Classification App](https://toticavalcanti-streamlit-app-images-classificator-app-cbnrqn.streamlitapp.com/)
 
 ![Screenshot (590)](https://user-images.githubusercontent.com/72247049/111105737-9c045a00-8579-11eb-8800-e477ca8d69ad.png)
 
